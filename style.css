@@ -1,0 +1,103 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+h1{
+    color: white;
+    text-transform: uppercase;
+    float: left;
+    
+}
+
+#login{
+    margin: -100px !important;
+    
+    height: 100vh;
+    
+    background-image: url(Images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    
+}
+
+#container{
+    
+    background:radial-gradient( at top left,blue, skyblue);
+    opacity: 100%;
+    border-radius: 30px;
+    height: 300px;
+    width: 500px;
+    position:relative;
+    margin: 100px auto;
+    
+    top: 30%;
+    
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 1px 2px 20px black;
+
+
+}
+.form{
+    
+    position: relative;
+    padding-left: 50PX;
+    padding-right: 50px;
+
+    
+}
+#Username_field , #passoword_field , #login_btn{
+    width: 100%;
+    margin-top: 7px;
+    margin-bottom:10px;
+    padding: 10px 0px 10px  0px;
+    text-align: center;
+    border-radius:10px;
+    border: none;
+}
+.checkboxx{
+    float: left;
+    color: white;
+    font-size: 13px;
+}
+#login_btn{
+    background:#3914a1;
+    text-transform: uppercase;
+    color: white;
+
+}
+#login_btn:hover{
+    background:#27a009;
+    
+    color: white;
+    box-shadow: 5px 5px 10px #4d4d4d;
+
+}
+#create_account{
+    color: white;
+    font-size: 12px;
+
+}
+#create_account a{
+    color: rgb(255, 249, 61);
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #4d4d4d;
+
+}
+#create_account a:hover{
+    color: rgb(21, 255, 0);
+    
+
+}
+
+
+
+
